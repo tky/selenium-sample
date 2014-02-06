@@ -5,7 +5,8 @@ object TypoSafeBuild extends Build {
 val default = Seq(
     "org.scalatest" % "scalatest_2.10" % "2.0.M8" % "test",
     "org.seleniumhq.selenium" % "selenium-java" % "2.33.0" % "test",
-    "com.google.code.findbugs" % "jsr305" % "1.3.+"
+    "com.google.code.findbugs" % "jsr305" % "1.3.+",
+    "commons-io" % "commons-io" % "2.4"
 )
 
 lazy val main = Project(
